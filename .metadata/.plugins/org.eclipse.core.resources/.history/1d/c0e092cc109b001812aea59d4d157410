@@ -1,0 +1,136 @@
+ package com.example.demo;
+
+public class EmployeeEducation {
+	
+	String school ;
+	String fieldOfStudy;
+    String degree   ;
+    String grade ;
+    String activities;
+    
+    public EmployeeEducation() {
+    	
+    }
+
+    public EmployeeEducation(String school ,String fieldOfStudy,String degree ,String grade ,String activities) {
+    	this.school=school;
+    	this.fieldOfStudy=fieldOfStudy;
+    	this.degree=degree;
+    	this.grade=grade;
+    	this.activities=activities;
+    	
+    }
+
+	public String getSchool() {
+		return school;
+	}
+
+	public void setSchool(String school) {
+		this.school = school;
+	}
+
+	public String getFieldOfStudy() {
+		return fieldOfStudy;
+	}
+
+	public void setFieldOfStudy(String fieldOfStudy) {
+		this.fieldOfStudy = fieldOfStudy;
+	}
+
+	public String getDegree() {
+		return degree;
+	}
+
+	public void setDegree(String degree) {
+		this.degree = degree;
+	}
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public String getActivities() {
+		return activities;
+	}
+
+	public void setActivities(String activities) {
+		this.activities = activities;
+	}
+}
+[3:28 PM, 8/8/2018] Mohamed Gabry: package com.example.demo;
+
+public class EmployeeLanguages {
+
+	String Language;
+	String Reading;
+	String Writing;
+	String Listening;
+	String Speaking;
+	String Jusification;
+	
+	public EmployeeLanguages(String Language, String Reading, String Writing, String Listening, String Speaking ,String Jusification)
+	{
+		this.Language=Language;
+		this.Reading=Reading;
+		this.Writing=Writing;
+		this.Listening=Listening;
+		this.Speaking=Speaking;
+		this.Jusification=Jusification;
+	}
+
+	public EmployeeLanguages()
+	{
+		
+	}
+	public String getLanguage() {
+		return Language;
+	}
+
+	public void setLanguage(String language) {
+		Language = language;
+	}
+
+	public String getReading() {
+		return Reading;
+	}
+
+	public void setReading(String reading) {
+		Reading = reading;
+	}
+
+	public String getWriting() {
+		return Writing;
+	}
+
+	public void setWriting(String writing) {
+		Writing = writing;
+	}
+
+	public String getListening() {
+		return Listening;
+	}
+
+	public void setListening(String listening) {
+		Listening = listening;
+	}
+
+	public String getSpeaking() {
+		return Speaking;
+	}
+
+	public void setSpeaking(String speaking) {
+		Speaking = speaking;
+	}
+
+	public String getJusification() {
+		return Jusification;
+	}
+
+	public void setJusification(String jusification) {
+		Jusification = jusification;
+	}
+}

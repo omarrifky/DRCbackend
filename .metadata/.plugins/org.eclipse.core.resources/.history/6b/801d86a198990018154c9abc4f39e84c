@@ -1,0 +1,25 @@
+package com.example.demo;
+
+import java.io.Serializable;
+
+public class Request implements Serializable{
+	public String Type;
+	public String Date;
+	public String Employeeusername;
+	public String Reviewerusername;
+	public String Status;
+	public String Id;
+	public String casualorannual;
+	public String Comment;
+	public Request ( String d , String r ,String e , String s,String i,String c) {
+
+		Date = d;
+		Reviewerusername = r;
+		Employeeusername = e;
+		Status = s;
+		Id = i;
+		Comment = c;
+	}
+	
+	
+}

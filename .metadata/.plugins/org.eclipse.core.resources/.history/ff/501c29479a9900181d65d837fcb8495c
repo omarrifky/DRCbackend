@@ -1,0 +1,8 @@
+package com.example.demo;
+
+public class WorkFromHomeRequest extends Request {
+	public WorkFromHomeRequest ( String d , String r ,String e , String s,String i,String c) {
+
+		super(d,r,e,s,i,c);
+	}
+}

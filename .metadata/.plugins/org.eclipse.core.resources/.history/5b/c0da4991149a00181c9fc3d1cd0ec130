@@ -1,0 +1,11 @@
+package com.example.demo;
+
+import java.io.Serializable;
+String name;
+public class WorkFromHomeRequest extends Request implements Serializable {
+	public WorkFromHomeRequest ( String d , String r ,String e , String s,String i,String c) {
+
+		super(d,r,e,s,i,c);
+		name = "WorkFromHome";
+	}
+}

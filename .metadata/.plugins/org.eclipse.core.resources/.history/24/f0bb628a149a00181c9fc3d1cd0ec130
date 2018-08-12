@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import java.io.Serializable;
+
+public class SickRequest extends Request implements Serializable {
+	public String MedicalUrl;
+	public String Type;
+	public SickRequest (String t , String d , String r ,String e , String s,String i,String m ) {
+		super(   d ,  r , e ,  s, i,m,"Sick");
+		MedicalUrl = m;
+		Type = t;
+	}
+	
+}
